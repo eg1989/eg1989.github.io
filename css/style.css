@@ -12,10 +12,54 @@ header {
 	background-color: #F3FE6A;
 	color: #6AA9FE;
 	height: 200px;
+	position: relative;
 }
 
 header h1 {
 	margin: 0;
+	position: absolute;
+	top: 30px;
+	left: 30px;
+}
+
+header form {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+}
+
+header form label[for="username"]{
+	position: absolute;
+	top: 0px;
+	right: 335px;
+}
+
+header form input[name="username"]{
+	position: absolute;
+	top: 30px;
+	right: 270px;
+}
+
+header form label[for="password"]{
+	position: absolute;
+	top: 0px;
+	right: 162px;
+}
+
+header form input[name="password"]{
+	position: absolute;
+	top: 30px;
+	right: 70px;
+}
+
+header form input[type="submit"]{
+	background-color: #6AA9FE;
+	border: 0;
+	color: yellow;
+	padding: 5px 5px;
+	position: absolute;
+	top: 28px;
+	right: 0px;
 }
 
 nav {
@@ -52,6 +96,14 @@ main {
 	height: 600px;
 	background-color: white;
 	border: 10px solid #6AA9FE;
+}
+
+main {
+	padding: 10px;
+}
+
+main h1 {
+	margin: 0;
 }
 
 section {
